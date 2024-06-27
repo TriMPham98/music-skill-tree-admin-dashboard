@@ -1,11 +1,11 @@
 import React from "react";
-import MusicLearningRoadmap from "./components/MusicLearningRoadmap";
+import InstrumentSelection from "./components/InstrumentSelection";
 import "./index.css"; // or './App.css'
 
 function App() {
   return (
     <div className="App">
-      <MusicLearningRoadmap />
+      <InstrumentSelection />
     </div>
   );
 }
