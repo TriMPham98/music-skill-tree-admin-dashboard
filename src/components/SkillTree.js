@@ -1,4 +1,3 @@
-// SkillTree.js
 import React, { useState } from "react";
 import { ChevronDown, ChevronRight, CheckCircle } from "lucide-react";
 
@@ -41,14 +40,18 @@ const SkillNode = ({ node, level = 0 }) => {
       </div>
       {isOpen && hasChildren && (
         <div className="ml-6 mt-2 space-y-2">
-          {node.children.map((child, index) => (
-            <div
-              key={index}
-              className="flex items-center p-2 bg-gray-800 rounded">
-              <span className="w-4 h-4 mr-3 bg-blue-500 rounded-full"></span>
-              <span className="text-gray-300">{child}</span>
-            </div>
-          ))}
+          {node.children.map((child, index) =>
+            typeof child === "string" ? (
+              <div
+                key={index}
+                className="flex items-center p-2 bg-gray-800 rounded">
+                <span className="w-4 h-4 mr-3 bg-blue-500 rounded-full"></span>
+                <span className="text-gray-300">{child}</span>
+              </div>
+            ) : (
+              <SkillNode key={index} node={child} level={level + 1} />
+            )
+          )}
         </div>
       )}
     </div>
