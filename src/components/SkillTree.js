@@ -22,12 +22,12 @@ const SkillTree = ({ skills }) => {
         <span className="text-lg font-semibold text-gray-200 mr-4">
           Overall Progress:
         </span>
-        <div className="flex-grow">
-          <ProgressBar progress={overallProgress} />
+        <div className="flex-grow flex items-center">
+          <ProgressBar progress={overallProgress} size="large" />
+          <span className="ml-4 text-gray-200">
+            {Math.round(overallProgress)}%
+          </span>
         </div>
-        <span className="ml-4 text-gray-200">
-          {Math.round(overallProgress)}%
-        </span>
       </div>
       {skills.map((skill, index) => (
         <SkillNode
