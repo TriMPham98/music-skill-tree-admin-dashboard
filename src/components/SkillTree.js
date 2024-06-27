@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronDown, ChevronRight, CheckCircle } from "lucide-react";
 
 const SkillNode = ({ node, level = 0, onComplete }) => {
-  const [isOpen, setIsOpen] = useState(level === 0);
+  const [isOpen, setIsOpen] = useState(false);
   const [progress, setProgress] = useState(0);
   const [completedSkills, setCompletedSkills] = useState({});
 
