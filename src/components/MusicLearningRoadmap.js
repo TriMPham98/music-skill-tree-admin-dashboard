@@ -77,41 +77,6 @@ const instrumentData = {
       },
     ],
   },
-  Drums: {
-    icon: "🥁",
-    skills: [
-      {
-        name: "Beginner",
-        children: [
-          "Drum Kit Setup and Maintenance",
-          "Basic Beats and Rhythms",
-          "Proper Stick Grip and Technique",
-          "Reading Drum Notation",
-          "Introduction to Rudiments",
-        ],
-      },
-      {
-        name: "Intermediate",
-        children: [
-          "Complex Time Signatures",
-          "Groove Development",
-          "Fills and Transitions",
-          "Drum Tuning",
-          "Playing with a Metronome",
-        ],
-      },
-      {
-        name: "Advanced",
-        children: [
-          "Polyrhythms and Odd Time Signatures",
-          "Advanced Rudiments and Sticking Patterns",
-          "Improvisation and Soloing",
-          "Studio Recording Techniques",
-          "World Percussion Styles",
-        ],
-      },
-    ],
-  },
   Bass: {
     icon: "🎸",
     skills: [
@@ -143,6 +108,41 @@ const instrumentData = {
           "Improvisation and Soloing",
           "Fretless Bass Techniques",
           "Advanced Music Theory for Bassists",
+        ],
+      },
+    ],
+  },
+  Drums: {
+    icon: "🥁",
+    skills: [
+      {
+        name: "Beginner",
+        children: [
+          "Drum Kit Setup and Maintenance",
+          "Basic Beats and Rhythms",
+          "Proper Stick Grip and Technique",
+          "Reading Drum Notation",
+          "Introduction to Rudiments",
+        ],
+      },
+      {
+        name: "Intermediate",
+        children: [
+          "Complex Time Signatures",
+          "Groove Development",
+          "Fills and Transitions",
+          "Drum Tuning",
+          "Playing with a Metronome",
+        ],
+      },
+      {
+        name: "Advanced",
+        children: [
+          "Polyrhythms and Odd Time Signatures",
+          "Advanced Rudiments and Sticking Patterns",
+          "Improvisation and Soloing",
+          "Studio Recording Techniques",
+          "World Percussion Styles",
         ],
       },
     ],
