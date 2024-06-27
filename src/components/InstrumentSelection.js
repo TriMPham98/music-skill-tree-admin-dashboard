@@ -40,7 +40,7 @@ const InstrumentSelection = () => {
                 {instrumentData[selectedInstrument].icon}
               </span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                {selectedInstrument} Learning Roadmap
+                {selectedInstrument} Progression
               </span>
             </h2>
             <SkillTree skills={instrumentData[selectedInstrument].skills} />
