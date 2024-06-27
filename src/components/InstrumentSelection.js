@@ -9,19 +9,19 @@ const InstrumentSelection = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white p-8">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
           Music Master: Choose Your Instrument
         </h1>
         {!selectedInstrument ? (
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
+          <div className="flex flex-wrap justify-center gap-6 mb-8">
             {Object.entries(instrumentData).map(([instrument, data]) => (
               <button
                 key={instrument}
-                className="p-4 bg-gradient-to-br from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 rounded-lg flex flex-col items-center justify-center transition-all duration-300 transform hover:scale-105 shadow-lg w-48"
+                className="p-6 bg-gradient-to-br from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 rounded-lg flex flex-col items-center justify-center transition-all duration-300 transform hover:scale-105 shadow-lg w-64 h-64"
                 onClick={() => setSelectedInstrument(instrument)}>
-                <span className="text-5xl mb-2">{data.icon}</span>
-                <span className="text-xl font-semibold text-blue-300">
+                <span className="text-7xl mb-4">{data.icon}</span>
+                <span className="text-2xl font-semibold text-blue-300">
                   {instrument}
                 </span>
               </button>
