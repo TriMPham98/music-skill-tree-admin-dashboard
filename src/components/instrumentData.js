@@ -20,8 +20,8 @@ export const instrumentData = {
           {
             name: "Basic Chords",
             children: [
-              "A, D, and E Chords",
               "G, C, and Em Chords",
+              "A, D, and E Chords",
               "Am and Dm Chords",
               "Power Chords",
               "Basic Chord Progressions (I-IV-V)",
