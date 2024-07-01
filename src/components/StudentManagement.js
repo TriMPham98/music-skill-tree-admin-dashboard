@@ -72,6 +72,7 @@ const StudentManagement = () => {
           value={editingStudent ? editingStudent.name : newStudent.name}
           onChange={handleInputChange}
           className="mb-2 p-2 w-full bg-gray-600 text-white rounded"
+          autoComplete="off"
         />
         <input
           type="text"
@@ -80,6 +81,7 @@ const StudentManagement = () => {
           value={editingStudent ? editingStudent.grade : newStudent.grade}
           onChange={handleInputChange}
           className="mb-2 p-2 w-full bg-gray-600 text-white rounded"
+          autoComplete="off"
         />
         <input
           type="text"
@@ -92,6 +94,7 @@ const StudentManagement = () => {
           }
           onChange={handleInputChange}
           className="mb-2 p-2 w-full bg-gray-600 text-white rounded"
+          autoComplete="off"
         />
         {editingStudent ? (
           <div>
