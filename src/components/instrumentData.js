@@ -220,7 +220,7 @@ export const instrumentData = {
           {
             name: "Basic Music Theory",
             children: [
-              "Intervals",
+              "Intervals with Interstellar",
               "Major Scale Structure",
               "Key Signatures",
               "Basic Chord Construction (Triads)",
