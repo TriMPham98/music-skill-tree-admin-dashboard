@@ -23,7 +23,7 @@ export const instrumentData = {
               "G, C, and Em Chords",
               "A, D, and E Chords",
               "Am and Dm Chords",
-              "Power Chords",
+              "Moveable Power Chords",
               "Basic Chord Progressions (I-IV-V)",
             ],
           },
